@@ -1,0 +1,44 @@
+1. Install OpenCV, and h5py (Ideally in a special virtual environment)
+2. Create the following directory/files structure
+
+|--- bovw
+|    |--- __init__.py
+|    |--- indexer
+|    |    |---- __init__.py
+|    |    |--- baseindexer.py
+|    |    |--- featureindexer.py
+|    |    |--- bovwindexer.py
+|	 |--- ir
+|    |    |---- __init__.py
+|    |    |--- bagofvisualwords.py
+|    |    |--- vocabulary.py
+|--- index_features2.py
+|--- cluster_features2.py
+|--- extract_bovw.py
+
+3. Identify keypoints and extract features from them
+
+* General usage
+python index_features2.py --dataset <<Path to the folder that contains your images>> --features-db <<Name of the file that will contain the features>>.hdf5 --approx-images <<approximate number of images [integer]>> --threshold <<hessian threshold for key point detection [integer]>>
+
+
+4. Create codebook by running the clustering
+
+* General
+python cluster_features.py --features-db <<Name of file that contains the features>>.hdf5 --codebook <<Name of file where the vocabulary is going to be stored>>.cpickle --clusters <<Number of clusters/words in the vocabulary  [integer]>> --percentage <<Percentage of features to sample [numeric, range 0-1]>>
+
+5. Extract the BoVW
+
+* General
+python extract_bovw.py --features-db <<Name of file that contains the features>>.hdf5 --codebook <<Name of file where the vocabulary is stored>>.cpickle --bovw-db <<Name of the file where the BoVW will stay>>.hdf5 --idf <<Name of the file where the IDF matrix will be stored>>.cpickle
+
+7. Export the BoVW into a IVW matrix .csv file
+
+*General
+python export_imgvwmat.py --features-db <<Name of file that contains the features>>.hdf5 --bovw-db <<Name of the file where the BoVW is stored>>.hdf5 --output <<Name of the file where the IMVW matrix will be sotred>>.csv
+
+
+
+
+
+
