@@ -31,6 +31,8 @@ sudo make install
 
 # To use imglab
 ```imglab -c <<Name of the file storing your annotations>>.xml <<Folder where your images to be annotated are stored>>
+```
+```
 imglab <<Name of the file storing your annotations>>.xml
 ```
 Press Shift to start drawing the boxes
