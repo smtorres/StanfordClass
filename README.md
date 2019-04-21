@@ -8,8 +8,8 @@ The ```Instructions``` file inside the ```bovw``` folder provides information an
 Check the tutorials on this website: https://www.pyimagesearch.com/opencv-tutorials-resources-guides/
 
 
-# A note about CNN code
-Most of the code was developed by Francisco Cantú  at the University of Houston. For a wonderful application of CNNs, check his paper: "The fingerprints of fraud: Evidence from Mexico's 1988 Presidental election" (Forthcoming in the APSR) [link of working paper: https://polmeth.polisci.wisc.edu/Papers/1988_1.pdf]
+# A note about the CNN code
+Most of the code was developed by Francisco CantÃº  at the University of Houston. For a wonderful application of CNNs, check his paper: "The fingerprints of fraud: Evidence from Mexico's 1988 Presidental election" (Forthcoming in the APSR) [link of working paper: https://polmeth.polisci.wisc.edu/Papers/1988_1.pdf]
 
 
 # To open the Jupyter notebook
