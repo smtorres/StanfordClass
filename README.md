@@ -1,4 +1,4 @@
-# StanfordClass
+# Some basics on Computer Vision
 # A note about the BoVW code
 Most of the code is based on Adrian Rosebrock's tutorials/online course. His website is really useful to learn computer vision.
 
