@@ -15,18 +15,18 @@ Most of the code was developed by Francisco Cantú  at the University of Houston.
 # To open the Jupyter notebook
 1. Intall jupyter
 2. Make sure to change the directory to the one that contains the notebook [in Terminal]
-3. Type: jupyter notebook
+3. Type: ```jupyter notebook```
 4. It will open a tab in  your browser. Click on the file with the notebook.
 
 # To install imglab [program to  tag your images]
-wget http://dlib.net/files/dlib-19.16.tar.bz2
+```wget http://dlib.net/files/dlib-19.16.tar.bz2
 tar xvjf dlib-19.16.tar.bz2
 cd dlib-19.16/tools/imglab
 mkdir build
 cd build
 cmake ..
 cmake --build . --config Release
-sudo make install
+sudo make install```
 
 # To use imglab
 imglab -c <<Name of the file storing your annotations>>.xml <<Folder where your images to be annotated are stored>>
