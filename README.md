@@ -2,7 +2,7 @@
 # A note about the BoVW code
 Most of the code is based on Adrian Rosebrock's tutorials/online course. His website is really useful to learn computer vision.
 
-The Instructions file inside the bovw folder provide information and guidance about the process to extract the Bag of Visual Words.
+The ```Instructions``` file inside the ```bovw``` folder provides information and guidance about the process to extract the Bag of Visual Words.
 
 # To install OpenCV
 Check the tutorials on this website: https://www.pyimagesearch.com/opencv-tutorials-resources-guides/
@@ -30,10 +30,8 @@ sudo make install
 ```
 
 # To use imglab
-```imglab -c <<Name of the file storing your annotations>>.xml <<Folder where your images to be annotated are stored>>
-```
-```
-imglab <<Name of the file storing your annotations>>.xml
+```imglab -c <Name of the file storing your annotations>.xml <Folder where your images to be annotated are stored>
+imglab <Name of the file storing your annotations>.xml
 ```
 Press Shift to start drawing the boxes
 
