@@ -1,6 +1,6 @@
 # StanfordClass
 # A note about the BoVW code
-Most of the code is based on the code provided by Adrian Rosebrock in his tutorials/online course. His website is really useful to learn computer vision.
+Most of the code is based on Adrian Rosebrock's tutorials/online course. His website is really useful to learn computer vision.
 
 The Instructions file inside the bovw folder provide information and guidance about the process to extract the Bag of Visual Words.
 
